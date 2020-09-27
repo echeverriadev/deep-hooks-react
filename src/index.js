@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { CounterWithCustomHook } from "./components/useState/CounterWithCustomHook";
+import { FormWithCustomHook } from "./components/useEffect/FormWithCustomHook";
 
-ReactDOM.render(<CounterWithCustomHook />, document.getElementById("root"));
+ReactDOM.render(<FormWithCustomHook />, document.getElementById("root"));
